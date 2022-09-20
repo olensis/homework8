@@ -20,19 +20,45 @@ public class Main {
         numbers1[2] = 3;
         for (int i = 0; i < numbers1.length; i++) {
             System.out.println(Arrays.toString(numbers1));
-        }
-        int[] guestion1 = {0, 5, 25, 40};
+    }
+    int[] guestion1 = {0, 5, 25, 40};
         System.out.println(Arrays.toString(guestion1));
-        double[] fractional1 = {1.57, 7.654, 9.986};
+    double[] fractional1 = {1.57, 7.654, 9.986};
         System.out.println(Arrays.toString(fractional1));
 
 
 
-        int task4 = 4;
+
+
+         int task4 = 4;
         int numbers3[] = {1, 2, 3};
-        for (int i = 0; i >=0 ; i++) {
+        for(int i = numbers.length - 1;i>=0;i--){
+
+            	System.out.println(numbers[i]);
+
+            }
+        double[] fractional2 = {1.57, 7.654, 9.986};
+        for (int i = fractional2.length - 1 ; i >= 0 ; i--) {
+            System.out.println(fractional2 [i]);
         }
-        System.out.println(numbers3);
+
+        int[] guestion2 = {0, 5, 25, 40};
+        for (int i = guestion2.length - 1 ; i >= 0 ; i--) {
+            System.out.println( guestion2 [i]);
+
+        }
+        
+
+        // Задание 5
+        int numbers4[] = {1, 2, 3};
+        for (int i = 0; i < numbers4.length; i++) {
+            if (numbers4 [i] % 2 != 0){
+                numbers4 [i] = numbers4[i] + 1;
+                System.out.println( numbers4 [i]);
+            }
+            
+        }
+        
 
 
 
@@ -45,7 +71,11 @@ public class Main {
 
 
 
-}
+
+
+
+
+    }
 }
 
 
@@ -58,9 +88,7 @@ public class Main {
 
               //  int[] guestion2 = {0, 5, 25, 40};
               //  System.out.println(Arrays.toString(guestion2));
-          // }
 
-        //}
 
 
 
