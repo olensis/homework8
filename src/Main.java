@@ -56,7 +56,7 @@ public class Main {
                 numbers4 [i] = numbers4[i] + 1;
                 System.out.println( numbers4 [i]);
             }
-            
+            // готово
         }
         
 
